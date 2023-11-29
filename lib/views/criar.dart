@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../components/menu_inferior.dart';
@@ -67,6 +68,7 @@ class _CadastroVagaState extends State<CadastroVaga> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Cadastro =D'),
+        backgroundColor: Color(0xFFB47BFF),
       ),
       body: CustomScrollView(
         //Permite rolagem da página

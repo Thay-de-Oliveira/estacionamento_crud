@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../components/menu_inferior.dart';
@@ -78,7 +79,8 @@ class _EditarVagaState extends State<EditarVaga> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Cadastro =D'),
+        title: Text('Editar =D'),
+        backgroundColor: Color(0xFFB47BFF),
       ),
       body: CustomScrollView(
         //Permite rolagem da página

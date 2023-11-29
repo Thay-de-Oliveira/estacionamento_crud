@@ -18,7 +18,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       //drawer: Menu(context),
       appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        backgroundColor: Color(0xFFB47BFF),
         title: Text("Bem-vindo(a) ao estacionamento online =D"),
       ),
       body: SingleChildScrollView(
