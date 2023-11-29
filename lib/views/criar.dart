@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../components/menu_inferior.dart';
+
 //import '../components/menu_inferior.dart';
 //
 //Adicionar:
@@ -127,7 +129,7 @@ class _CadastroVagaState extends State<CadastroVaga> {
           ),
         ],
       ),
-      //bottomNavigationBar: MenuInferior(),
+      bottomNavigationBar: MenuInferior(),
     );
   }
 }

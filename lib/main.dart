@@ -16,12 +16,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute: '/', //Rota inicial
+      initialRoute: '/home', //Rota inicial
       routes: {
-        '/': (context) => LoginApp(), //Login
-        '/cadastro': (context) => CadastroApp(), //Calculadora
-        '/calculadora': (context) => Calculadora(), //Calculadora
-        '/home': (context) => MyHomePage(title: ''), //Home
+        '/home': (context) => MyHomePage(),
+        '/criar': (context) => CadastroVaga(),
+        '/editar': (context) => EditarVaga(),
+        //'/listar': (context) => ListarVaga(),
       },
     );
   }

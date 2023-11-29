@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../components/menu_inferior.dart';
+
 //import '../components/menu_inferior.dart';
 //
 //Adicionar:
@@ -139,7 +141,7 @@ class _EditarVagaState extends State<EditarVaga> {
           ),
         ],
       ),
-      //bottomNavigationBar: MenuInferior(),
+      bottomNavigationBar: MenuInferior(),
     );
   }
 }

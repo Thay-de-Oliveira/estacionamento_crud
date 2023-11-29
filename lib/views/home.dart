@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import '../components/menu_inferior.dart';
+
 //import 'components/menu.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -27,6 +29,8 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
+
+      bottomNavigationBar: MenuInferior(),
     );
   }
 }
